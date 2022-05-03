@@ -6,9 +6,9 @@ header-img: img/post-bg-desk.jpg
 email: 暂无
 description: "（网站介绍）这仅仅是一个测试."
 keyword: "WP,WANGPEI,王沛，王沛的博客"
-url: "http://xiaokeai18.github.io"          # your host, for absolute URL
+url: "https://jialingyk.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Xiaokeai18/Xiaokeai18.github.io.git" # you code repository
+github_repo: "https://github.com/jialingyk/jialingyk.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
