@@ -5,11 +5,11 @@ order: 2
 ---
 <p>
     I am currently exploring <a href="https://unity.com/" target="_blank">Unity</a> through a small side project:
-    a 3D world inspired by music, with a seaside scene, a train journey, and an underground music venue.
+    a 3D world inspired by artists I love, with a seaside scene, a train journey, and an underground music venue.
 </p>
 <p class="mb-0">
-    It has been a hands-on way to learn scene design, lighting, and simple interaction and rhythm mechanics,
-    and I hope to eventually experience these spaces in VR.
+    Beyond learning scene design and interaction, I see it as a playground for exploring what becomes possible
+    where AI, music, games, and VR meet.
 </p>
 
 <!-- To add figures, put images/GIFs in /images/hobbies/ and uncomment:
