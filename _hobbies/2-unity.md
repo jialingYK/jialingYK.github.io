@@ -4,8 +4,8 @@ show: true
 order: 2
 ---
 <p>
-    I have recently been exploring <a href="https://unity.com/" target="_blank">Unity</a> through a small side project:
-    an explorable 3D world inspired by the music of BTS, with a seaside scene, a train journey, and an underground music venue.
+    I am currently exploring <a href="https://unity.com/" target="_blank">Unity</a> through a small side project:
+    a 3D world inspired by music, with a seaside scene, a train journey, and an underground music venue.
 </p>
 <p class="mb-0">
     It has been a hands-on way to learn scene design, lighting, and simple interaction and rhythm mechanics,
