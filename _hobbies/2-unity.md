@@ -4,7 +4,7 @@ show: true
 order: 2
 ---
 <p>
-    I have recently been teaching myself <a href="https://unity.com/" target="_blank">Unity</a> through a small side project:
+    I have recently been exploring <a href="https://unity.com/" target="_blank">Unity</a> through a small side project:
     an explorable 3D world inspired by the music of BTS, with a seaside scene, a train journey, and an underground music venue.
 </p>
 <p class="mb-0">
