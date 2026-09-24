@@ -1,12 +1,11 @@
 ---
 show: true
-width: 6
-order: 10
+width: 4
+order: 20
 group: <i class="fas fa-music"></i> Music
 ---
 <div class="p-4">
-    <h5><i class="fas fa-headphones"></i> On Repeat Lately</h5>
-    <p class="small text-muted mb-0">New songs I've stumbled upon recently.</p>
+    <h5><i class="fas fa-headphones"></i> On Repeat</h5>
     <hr />
     <!-- Add a new <li> for each song; put the newest on top. -->
     <ol class="list-unstyled mb-0">

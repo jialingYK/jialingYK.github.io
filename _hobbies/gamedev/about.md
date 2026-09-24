@@ -5,19 +5,18 @@ order: 30
 group: <i class="fas fa-gamepad"></i> Game Development
 ---
 <div class="p-4">
-    <h5>Learning Unity</h5>
+    <h5>Building Little Worlds in Unity</h5>
     <hr />
     <p>
-        I have recently started learning to make games with <a href="https://unity.com/" target="_blank">Unity</a>.
-        <!-- TODO: what kind of game are you building? What are you learning along the way? -->
-        More to come as I build my first game!
+        I recently started learning <a href="https://unity.com/" target="_blank">Unity</a> through a personal passion project:
+        a small, explorable world inspired by BTS and their music. It brings together a seaside setting, train journeys,
+        an underground music venue, and playful interactions along the way.
     </p>
-    <h6 class="mt-3">Dev Log</h6>
-    <!-- TODO: add an entry each time you hit a milestone -->
-    <ul class="list-unstyled small mb-0">
-        <li class="d-flex">
-            <div>Started learning Unity</div>
-            <div class="ml-auto text-muted no-break"><em>2026</em></div>
-        </li>
-    </ul>
+    <p>
+        I&rsquo;m experimenting with scene design, lighting, and simple music games, with the hope of eventually
+        exploring these spaces in VR. It&rsquo;s a work in progress, and a fun way to bring my love of music into
+        something interactive.
+    </p>
+    <h6 class="mt-3">Currently exploring</h6>
+    <p class="small text-muted mb-0">Scene design &middot; Interactive storytelling &middot; Music-based mini-games</p>
 </div>

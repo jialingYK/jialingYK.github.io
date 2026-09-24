@@ -16,5 +16,5 @@ group: <i class="fas fa-gamepad"></i> Game Development
 <div class="p-4 text-center text-muted">
     <i class="fas fa-cube fa-3x my-3"></i>
     <h5>Screenshots coming soon</h5>
-    <p class="small mb-0">Work-in-progress builds, GIFs and playable demos will show up here.</p>
+    <p class="small mb-0">A few glimpses of my ongoing Unity experiment. Built for fun, inspired by music.</p>
 </div>
