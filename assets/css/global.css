@@ -273,3 +273,7 @@ h5 > .fas, h5 > .fab, h6 > .fas, h1 > .fas, h2 > .fas {
 .text-profile-bio li::marker {
     color: var(--accent);
 }
+
+.playlist-embed {
+    max-width: 480px;
+}
