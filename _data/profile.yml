@@ -1,0 +1,49 @@
+primary_name: "Jialing Cai"
+secondary_name: ""
+navbar_name: "Jialing Cai"
+
+positions:
+- name: Ph.D. Student
+- name: Computer Science and Engineering
+- name: University at Buffalo
+
+email: "jialingc@buffalo.edu"
+# cv_link: /images/jialing_cai_Resume.PDF
+gscholar: P4IH94EAAAAJ
+github: jialingYK
+linkedin: jialing-cai-876989176
+instagram: jia_ling_c
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    I am a Ph.D. student in Computer Science and Engineering at the University at Buffalo, advised by
+    <a href="https://cse.buffalo.edu/~siweilyu/" target="_blank">Prof. Siwei Lyu</a>.
+    My research focuses on AI-generated and manipulated media across images, videos, and audio, with an emphasis on
+    multimedia forensics, interpretable detection, and real-world case analysis.
+  </p>
+  <p>
+    Before my Ph.D., I earned my BA/MS in Econometrics and Quantitative Economics from the University at Buffalo.
+  </p>
+  <p class="mb-2"><strong>Research interests:</strong></p>
+  <ul>
+    <li>AI-generated and manipulated media analysis</li>
+    <li>Multimodal media forensics across image, video, and audio</li>
+    <li>Interpretable detection and human-AI forensic reasoning</li>
+    <li>AI-generated music, speech, and audio authenticity</li>
+  </ul>
+
+portrait_url: /images/WechatIMG76442.jpg
+
+education:
+- name: University at Buffalo
+  position: >-
+    Ph.D. in Computer Science and Engineering
+- name: University at Buffalo
+  position: BA/MS in Econometrics and Quantitative Economics
+
+experience:
+- name: GE Aerospace Research
+  position: >-
+    Research Intern, Knowledge Discovery &amp; High Assurance Systems
+  date: Summer 2026
