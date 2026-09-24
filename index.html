@@ -1,270 +1,42 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Jialing Cai - Homepage</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<style>
-			body, input, select, textarea {
-				color: #4a4a4a;
-			}
-			a {
-				color: #2f7f73;
-			}
-			h1, h2, h3, h4, h5, h6 {
-				color: #222222;
-			}
-			#main p, #main li {
-				color: #4a4a4a;
-			}
-			#header .avatar-img {
-				width: 160px;
-				height: 200px;
-				object-fit: cover;
-				border-radius: 6px;
-				margin-bottom: 1.5em;
-			}
-			#header .name {
-				font-size: 2.1em;
-				font-weight: 600;
-				line-height: 1.2;
-				color: #ffffff;
-				margin: 0 0 0.55em 0;
-			}
-			#header .title {
-				font-size: 1.05em;
-				line-height: 1.55;
-				color: rgba(255, 255, 255, 0.86);
-			}
-			#header .keywords {
-				font-size: 0.9em;
-				line-height: 1.6;
-				color: rgba(255, 255, 255, 0.72);
-				margin-top: 1.25em;
-			}
-			.hero h1 {
-				font-size: 2.15em;
-				line-height: 1.25;
-				margin-bottom: 0.6em;
-			}
-			.hero p {
-				font-size: 1.05em;
-				line-height: 1.75;
-			}
-			.tag-list {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 0.6em;
-				margin: 1.25em 0 0 0;
-				padding: 0;
-				list-style: none;
-			}
-			.tag-list li {
-				border: 1px solid #d8d8d8;
-				border-radius: 999px;
-				padding: 0.35em 0.85em;
-				font-size: 0.9em;
-				color: #444;
-				background: #fafafa;
-			}
-			.info-grid {
-				display: grid;
-				grid-template-columns: repeat(2, minmax(0, 1fr));
-				gap: 1.5em;
-				margin-top: 1.5em;
-			}
-			.info-card {
-				border: 1px solid #e3e3e3;
-				border-radius: 10px;
-				padding: 1.25em 1.35em;
-				background: #ffffff;
-				box-shadow: 0 2px 8px rgba(0,0,0,0.03);
-			}
-			.info-card h3 {
-				margin-bottom: 0.6em;
-			}
-			.info-card ul {
-				margin-bottom: 0;
-			}
-			.news-list {
-				list-style: none;
-				padding-left: 0;
-				margin-bottom: 0;
-			}
-			.news-list li {
-				border-left: 3px solid #49bf9d;
-				padding-left: 1em;
-				margin-bottom: 1em;
-			}
-			.news-date {
-				font-weight: 600;
-				color: #333;
-			}
-			.work-item h3 {
-				line-height: 1.45;
-			}
-			.pub-venue {
-				color: #555;
-				font-size: 0.95em;
-			}
-			@media screen and (max-width: 736px) {
-				.info-grid {
-					grid-template-columns: 1fr;
-				}
-				.hero h1 {
-					font-size: 1.65em;
-				}
-			}
-		</style>
-	</head>
-	<body class="is-preload">
+---
+layout: default
+title : Homepage
+navbar_title: Home
+---
 
-		<!-- Header -->
-		<header id="header">
-			<div class="inner">
-				<img class="avatar-img" src="images/WechatIMG76442.jpg" alt="Jialing Cai" />
-				<div class="name">Jialing Cai</div>
-				<div class="title">Ph.D. Student<br />Computer Science and Engineering<br />University at Buffalo</div>
-				<div class="keywords">AI-generated media · Multimedia forensics · Interpretable detection</div>
-			</div>
-		</header>
+<div class="row">
+    <div class="col-lg-3 col-md-4">
+        {% include widgets/profile_card_mini.html %}
+    </div>
+    <div class="col-lg-9 col-md-8">
 
-		<!-- Main -->
-		<div id="main">
+        {% include widgets/profile_card_bio_only.html %}
 
-			<!-- About -->
-			<section id="about" class="hero">
-				<header class="major">
-					<h1>Ph.D. student working on multimedia forensics and AI-generated media analysis.</h1>
-				</header>
-				<p>
-					I am a second-year Ph.D. student in Computer Science and Engineering at the University at Buffalo, advised by
-					<a href="https://cse.buffalo.edu/~siweilyu/" target="_blank">Prof. Siwei Lyu</a>. My research focuses on AI-generated and manipulated media across images, videos, and audio, with an emphasis on multimedia forensics, interpretable detection, and real-world case analysis. Before my Ph.D., I earned my BA/MS in Econometrics and Quantitative Economics from the University at Buffalo.
-				</p>
-				<ul class="tag-list">
-					<li>AI-generated media detection</li>
-					<li>Image, video, and audio forensics</li>
-					<li>Interpretable AI</li>
-					<li>AI-generated music and audio authenticity</li>
-				</ul>
-			</section>
+        <!-- Debugging widgets -->
+        {% include widgets/debug_url.html %}
 
-			<!-- Research and News -->
-			<section id="research">
-				<div class="info-grid">
-					<div class="info-card">
-						<h2>Research Interests</h2>
-						<ul>
-							<li>AI-generated and manipulated media analysis</li>
-							<li>Multimodal media forensics across image, video, and audio</li>
-							<li>Interpretable detection and human-AI forensic reasoning</li>
-							<li>AI-generated music, speech, and audio authenticity</li>
-						</ul>
-					</div>
-					<div class="info-card">
-						<h2>News</h2>
-						<ul class="news-list">
-							<li><span class="news-date">Summer 2026</span><br />Research Intern, Knowledge Discovery &amp; High Assurance Systems, GE Aerospace Research.</li>
-							<li><span class="news-date">2025</span><br />Our survey on tools and real-world cases of AI-generated media was accepted to AVSS 2025.</li>
-						</ul>
-					</div>
-				</div>
-			</section>
+        {% if site.data.display.homepage.show_experience %}
+            {% include widgets/experience_card.html %}
+        {% endif %}
 
-			<!-- Publications -->
-			<section id="publications">
-				<h2>Selected Publications</h2>
-				<div class="row">
+        {% if site.data.display.homepage.show_news %}
+        {% assign count_news = site.news | size %}
+        {% if count_news > 0 %}
+        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
+        {% endif %}
+        {% endif %}
 
-					<article class="col-8 col-12-xsmall work-item">
-						<a href="images/pipeline_real-1.png" class="image fit thumb"><img src="images/pipeline_real-1.png" alt="AI-generated media survey pipeline" style="filter: none;" /></a>
-						<h3>A Landscape Survey of Tools and Real-World Cases of AI-Generated Media</h3>
-						<h3><strong style="color: black;">Jialing Cai</strong>, Chengzhe Sun, Soumyya Kanti Datta, Siwei Lyu</h3>
-						<h3 class="pub-venue">IEEE International Conference on Advanced Visual and Signal-Based Systems (AVSS 2025)</h3>
-					</article>
+        {% if site.data.display.homepage.show_selected_publications %}
+        {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
+        {%
+        include widgets/publication_card.html
+        publications=pubs
+        title='<i class="fas fa-star"></i> Selected Publications'
+        %}
+        {% endif %}
 
-					<article class="col-8 col-12-xsmall work-item">
-						<a href="images/MultiEdits.png" class="image fit thumb"><img src="images/MultiEdits.png" alt="ParallelEdits" style="filter: none;" /></a>
-						<h3><a href="https://arxiv.org/abs/2406.00985" target="_blank">ParallelEdits: Efficient Multi-Aspect Text-Driven Image Editing with Attention Grouping</a></h3>
-						<h3>Mingzhen Huang, <strong style="color: black;">Jialing Cai</strong>, Shan Jia, Vishnu Suresh Lokhande, Siwei Lyu</h3>
-						<h3 class="pub-venue">NeurIPS 2024&nbsp;&nbsp;<a href="https://mingzhen-huang.github.io/projects/ParallelEdits.html" target="_blank">[Project Page]</a></h3>
-					</article>
-
-					<article class="col-8 col-12-xsmall work-item">
-						<a href="images/ICLR1.png" class="image fit thumb"><img src="images/ICLR1.png" alt="Text-image inconsistency" style="filter: none;" /></a>
-						<h3><a href="https://openreview.net/pdf?id=Ny150AblPu" target="_blank">Exposing Text-Image Inconsistency Using Diffusion Models</a></h3>
-						<h3>Mingzhen Huang, Shan Jia, Zhou Zhou, Yan Ju, <strong style="color: black;">Jialing Cai</strong>, Siwei Lyu</h3>
-						<h3 class="pub-venue">ICLR 2024</h3>
-					</article>
-
-					<article class="col-8 col-12-xsmall work-item">
-						<a href="images/Publication1.png" class="image fit thumb"><img src="images/Publication1.png" alt="GLFF" style="filter: none;" /></a>
-						<h3><a href="https://ieeexplore.ieee.org/abstract/document/10246417" target="_blank">GLFF: Global and Local Feature Fusion for Face Forgery Detection</a></h3>
-						<h3>Yan Ju, Shan Jia, <strong style="color: black;">Jialing Cai</strong>, Siwei Lyu</h3>
-						<h3 class="pub-venue">IEEE Transactions on Multimedia (TMM) 2023</h3>
-					</article>
-
-					<article class="col-8 col-12-xsmall work-item">
-						<a href="images/My project.png" class="image fit thumb"><img src="images/publication2.png" alt="AutoSplice" style="filter: none;" /></a>
-						<h3><a href="https://openaccess.thecvf.com/content/CVPR2023W/WMF/html/Jia_AutoSplice_A_Text-Prompt_Manipulated_Image_Dataset_for_Media_Forensics_CVPRW_2023_paper.html" target="_blank">AutoSplice: A Text-prompt Manipulated Image Dataset for Media Forensics</a></h3>
-						<h3>Shan Jia, Mingzhen Huang, Zhou Zhou, Yan Ju, <strong style="color: black;">Jialing Cai</strong>, Siwei Lyu</h3>
-						<h3 class="pub-venue">CVPRW 2023</h3>
-					</article>
-				</div>
-				<ul class="actions">
-					<li><a href="https://scholar.google.com/citations?hl=en&user=P4IH94EAAAAJ" class="button">Google Scholar</a></li>
-				</ul>
-			</section>
-
-			<!-- Contact -->
-			<section id="contact">
-				<h2>Get in Touch</h2>
-				<p>I am always open to conversations about AI-generated media, multimedia forensics, and trustworthy AI systems.</p>
-				<ul class="labeled-icons">
-					<li>
-						<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-						<a href="mailto:jialingc@buffalo.edu">jialingc@buffalo.edu</a>
-					</li>
-					<li>
-						<h3 class="icon brands fa-linkedin"><span class="label">LinkedIn</span></h3>
-						<a href="https://www.linkedin.com/in/jialing-cai-876989176/" target="_blank">LinkedIn</a>
-					</li>
-					<li>
-						<h3 class="icon brands fa-github"><span class="label">GitHub</span></h3>
-						<a href="https://github.com/jialingYK" target="_blank">GitHub</a>
-					</li>
-				</ul>
-				<a href="https://mapmyvisitors.com/web/1c67r"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=wSFp59LokUOn3DwhLghGh3EA7alJ0R686YcpaaMpZHM&cl=ffffff" /></a></section>
-
-		</div>
-
-		<!-- Footer -->
-		<footer id="footer">
-			<div class="inner">
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/jialing-cai-876989176/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://github.com/jialingYK" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="https://www.instagram.com/jia_ling_c/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Jialing Cai</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</div>
-		</footer>
-
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.poptrox.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+        <div class="my-3 text-center">
+            <a href="https://mapmyvisitors.com/web/1c67r" target="_blank" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=wSFp59LokUOn3DwhLghGh3EA7alJ0R686YcpaaMpZHM&cl=ffffff" alt="Visitor map" style="max-width: 300px;" class="img-fluid"></a>
+        </div>
+    </div>
+</div>

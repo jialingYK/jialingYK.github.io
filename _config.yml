@@ -1,1 +1,20 @@
-theme: jekyll-theme-slate
+# Site settings
+title: Jialing Cai
+baseurl: "" # the subpath of your site, e.g. /blog (empty for username.github.io)
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-email-protect
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor/
+
+collections:
+  - publications
+  - news
+  - hobbies
