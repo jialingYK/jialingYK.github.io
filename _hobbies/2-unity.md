@@ -1,11 +1,15 @@
 ---
-title: Gaming
+title: "Side Project: A Music-Inspired World in Unity"
 show: true
 order: 2
 ---
+<p>
+    I am currently exploring <a href="https://unity.com/" target="_blank">Unity</a> through a small side project:
+    a 3D world inspired by music, with a seaside scene, a train journey, and an underground music venue.
+</p>
 <p class="mb-0">
-    Lately I&rsquo;ve been making a small game in <a href="https://unity.com/" target="_blank">Unity</a>&mdash;a seaside,
-    a train ride, and an underground music venue, inspired by BTS songs I love.
+    It has been a hands-on way to learn scene design, lighting, and simple interaction and rhythm mechanics,
+    and I hope to eventually experience these spaces in VR.
 </p>
 
 <!-- To add figures, put images/GIFs in /images/hobbies/ and uncomment:
