@@ -18,5 +18,9 @@ group: <i class="fas fa-gamepad"></i> Game Development
         something interactive.
     </p>
     <h6 class="mt-3">Currently exploring</h6>
-    <p class="small text-muted mb-0">Scene design &middot; Interactive storytelling &middot; Music-based mini-games</p>
+    <div class="small">
+        <span class="tag-pill">Scene design</span>
+        <span class="tag-pill">Interactive storytelling</span>
+        <span class="tag-pill">Music-based mini-games</span>
+    </div>
 </div>
