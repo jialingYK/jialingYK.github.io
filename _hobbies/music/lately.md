@@ -1,7 +1,7 @@
 ---
 show: true
-width: 4
-order: 25
+width: 6
+order: 10
 group: <i class="fas fa-music"></i> Music
 ---
 <div class="p-4">
