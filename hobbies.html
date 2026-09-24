@@ -1,41 +1,27 @@
 ---
 layout: default
-title : Hobbies
-navbar_title: Hobbies
-container_class: container-xl
+title : Beyond Research
+navbar_title: Beyond Research
 ---
 
-<!-- Cards live in the `_hobbies` folder. Each card has a `group` (section heading), a `width` (1-12) and an `order` (smaller = earlier). -->
+<!-- Each section is a file in the `_hobbies` folder, ordered by `order`. -->
 
-<div class="row mb-3">
-    <div class="col">
-        <h1>Hobbies</h1>
-        <p class="lead text-muted mb-0">Outside of research, here are a few things I enjoy.</p>
-    </div>
-</div>
+<div class="row">
+    <div class="col-lg-10">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-4 p-md-5">
+                <div class="h3 mb-2">Beyond Research</div>
+                <p class="text-muted mb-0">A few things I enjoy outside of work.</p>
 
-{% assign cards_by_group = site.hobbies | where: "show", true | sort: "order" | group_by_exp: "item", "item.group" %}
-
-{% for group in cards_by_group %}
-<h2 class="h3 mt-4">{{ group.name }}</h2>
-<div class="row grid mx-n2 mb-4">
-    <div class="grid-sizer col-1"></div>
-    {% for item in group.items %}
-    {% if item.width >= 6 -%}
-        {%- assign width_sm = 12 -%}
-        {%- assign width_xs = 12 -%}
-    {%- elsif item.width >= 2 -%}
-        {%- assign width_sm = 6 -%}
-        {%- assign width_xs = 12 -%}
-    {%- else -%}
-        {%- assign width_sm = item.width | times: 2 | at_most: 12 -%}
-        {%- assign width_xs = item.width | times: 2 | at_most: 12 -%}
-    {%- endif -%}
-    <div class="p-2 grid-item col-md-{{ item.width | at_most: 12 }} col-sm-{{ width_sm }} col-{{ width_xs }}">
-        <div class="{% if item.class != null %}{{ item.class }}{% else %}card border-0 shadow-sm bg-white{% endif %}">
-            {{ item.content }}
+                {% assign sections = site.hobbies | where: "show", true | sort: "order" %}
+                {% for item in sections %}
+                <hr class="my-4" />
+                <h5 class="mb-3">{{ item.title }}</h5>
+                <div class="text-profile-bio">
+                    {{ item.content }}
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
-    {% endfor %}
 </div>
-{% endfor %}
