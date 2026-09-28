@@ -36,7 +36,43 @@ navbar_title: Home
         {% endif %}
 
         <div class="my-3 text-center">
-            <a href="https://mapmyvisitors.com/web/1c67r" target="_blank" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=wSFp59LokUOn3DwhLghGh3EA7alJ0R686YcpaaMpZHM&cl=ffffff" alt="Visitor map" style="max-width: 300px;" class="img-fluid"></a>
-        </div>
+    <script
+        src="https://feed-pulse.com/api/embed/traffic-feed.js?site_id=646e496d-2d2e-4191-97f5-07422f895263&w=320&bc=ffffff&tc=0A0A0A&brd=E5E7EB&hb=002FA7&hf=ffffff&lnk=002FA7&font=IBM+Plex+Sans&rows=10&poll=3000&lang=en&bstyle=minimal&v=15"
+        async>
+    </script>
+
+    <script>
+        (function () {
+            function g() {
+                try {
+                    var i = new Image();
+                    var t = (document.title || '').slice(0, 160);
+
+                    i.src =
+                        'https://feed-pulse.com/api/track-pixel/646e496d-2d2e-4191-97f5-07422f895263' +
+                        '?path=' + encodeURIComponent(location.pathname || '/') +
+                        '&title=' + encodeURIComponent(t) +
+                        '&host=' + encodeURIComponent(location.host) +
+                        '&ref=' + encodeURIComponent(document.referrer || '');
+                } catch (e) {}
+            }
+
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', g, { once: true });
+            } else {
+                setTimeout(g, 80);
+            }
+        })();
+    </script>
+
+    <noscript>
+        <img
+            src="https://feed-pulse.com/api/track-pixel/646e496d-2d2e-4191-97f5-07422f895263?via=img&nojs=1"
+            referrerpolicy="no-referrer-when-downgrade"
+            style="position:absolute;width:1px;height:1px;border:0;opacity:0;pointer-events:none;"
+            alt=""
+        />
+    </noscript>
+</div>
     </div>
 </div>
